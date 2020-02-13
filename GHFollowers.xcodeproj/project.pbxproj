@@ -30,6 +30,8 @@
 		C3E651DF23C4370800882CAD /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E651DE23C4370800882CAD /* GFAlertVC.swift */; };
 		C3E651E123CAAC1900882CAD /* GFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E651E023CAAC1900882CAD /* GFContainerView.swift */; };
 		C3E651E323CABB7400882CAD /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E651E223CABB7400882CAD /* UIViewController+Ext.swift */; };
+		C3F1FAAA23F3B97100235BD1 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1FAA923F3B97100235BD1 /* GFUserInfoHeaderVC.swift */; };
+		C3F1FAAC23F3BA1B00235BD1 /* GFSecondaryTitleLaabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1FAAB23F3BA1B00235BD1 /* GFSecondaryTitleLaabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		C3E651DE23C4370800882CAD /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		C3E651E023CAAC1900882CAD /* GFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFContainerView.swift; sourceTree = "<group>"; };
 		C3E651E223CABB7400882CAD /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		C3F1FAA923F3B97100235BD1 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		C3F1FAAB23F3BA1B00235BD1 /* GFSecondaryTitleLaabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLaabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E651DE23C4370800882CAD /* GFAlertVC.swift */,
+				C3F1FAA923F3B97100235BD1 /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			children = (
 				C3E651DA23C4341600882CAD /* GFTitleLabel.swift */,
 				C3E651DC23C4362F00882CAD /* GFBodyLabel.swift */,
+				C3F1FAAB23F3BA1B00235BD1 /* GFSecondaryTitleLaabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -303,11 +309,13 @@
 				C3E651D723BDAF9C00882CAD /* GFTextField.swift in Sources */,
 				C3E651D123BD629200882CAD /* SearchVC.swift in Sources */,
 				C3E651E323CABB7400882CAD /* UIViewController+Ext.swift in Sources */,
+				C3F1FAAA23F3B97100235BD1 /* GFUserInfoHeaderVC.swift in Sources */,
 				C3E651D523BDA69E00882CAD /* GFButton.swift in Sources */,
 				C3E651D323BD62EE00882CAD /* FavoritesListVC.swift in Sources */,
 				C3E420DC23F0F46E0019B4A4 /* GFEmptyStateView.swift in Sources */,
 				C3E651DF23C4370800882CAD /* GFAlertVC.swift in Sources */,
 				C3D6004023D3F8AC005D2DB1 /* User.swift in Sources */,
+				C3F1FAAC23F3BA1B00235BD1 /* GFSecondaryTitleLaabel.swift in Sources */,
 				C3D6004923DE9699005D2DB1 /* FollowerCell.swift in Sources */,
 				C3D6004B23DE974F005D2DB1 /* GFAvatarImageView.swift in Sources */,
 				C3E651DD23C4362F00882CAD /* GFBodyLabel.swift in Sources */,
